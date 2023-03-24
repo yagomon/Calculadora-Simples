@@ -31,14 +31,14 @@ body{
   width:350px;
   min-width: 214px;
   height: 590px;
-  
+
   background-color:var(--bg-color2);
   padding:20px 25px 25px 25px;
   border-radius: 5px;
   margin:10px;
 
   box-shadow:  20px 20px 60px #2d324d,
-  -20px -20px 60px #a1abc3;
+    -20px -20px 60px #a1abc3;
   -Webkit-box-shadow: 20px 20px 60px #2d324d,
   -20px -20px 60px #a1abc3;
 
