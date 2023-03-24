@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculadora online</title>
+    <link rel="icon" type="image/png" href="./assets/img/calculator.png" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/3cd94c78a3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="title">
+        <i class="fa-sharp fa-solid fa-calculator"></i>
+        <h1>Calculadora</h1>
+      </div>
+
+      <div id="display">
+        <p id="operations" class="display"></p>
+      </div>
+
+      <div id="buttons-container">
+        <button onclick="clean()">C</button>
+
+        <button onclick="insert('/100')">%</button>
+
+        <button onclick="insert('/')">÷</button>
+
+        <button onclick="insert('*')">x</button>
+
+        <button class="number" onclick="insert('7')">7</button>
+
+        <button class="number" onclick="insert('8')">8</button>
+
+        <button class="number" onclick="insert('9')">9</button>
+
+        <button onclick="insert('-')">-</button>
+
+        <button class="number" onclick="insert('4')">4</button>
+
+        <button class="number" onclick="insert('5')">5</button>
+
+        <button class="number" onclick="insert('6')">6</button>
+
+        <button onclick="insert('+')">+</button>
+
+        <button class="number" onclick="insert('1')">1</button>
+
+        <button class="number" onclick="insert(2)">2</button>
+
+        <button class="number" onclick="insert('3')">3</button>
+
+        <button id="equal" onclick="result()">=</button>
+
+        <button class="number" onclick="insert('0')">0</button>
+
+        <button class="number" onclick="insert('.')">.</button>
+
+        <button class="number" onclick="backspace()">
+          <i class="fa-solid fa-delete-left"></i>
+        </button>
+      </div>
+    </div>
+    <footer> By Yago Monteiro </footer>
+  </body>
+  
+  <script src="./js/script.js"></script>
+</html>
