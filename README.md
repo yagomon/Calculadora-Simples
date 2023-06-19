@@ -3,7 +3,8 @@ Projeto de estudo desenvolvido com o objetivo de praticar conceitos de posiciona
 
 
 #### Link para vizualizar o  projeto:
-<a href="https://yagomonteiroo.github.io/Calculadora-Simples/" target="_blank"> https://yagomonteiroo.github.io/Calculadora-Simples </a>      
+[https://yagomonteiroo.github.io/Calculadora-Simples](https://yagomonteiroo.github.io/Calculadora-Simples/)
+     
                     
                     
 ## ⚙️Pré-requisitos
