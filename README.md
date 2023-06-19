@@ -1,6 +1,6 @@
 <h1 align="center">&#128425; Projeto Calculadora Simples 🖩</h1>
 Projeto de estudo desenvolvido com o objetivo de praticar conceitos de posicionamento como css grid, entre outros. Também foi uma otíma maneira de por em prática a lógica de programação com vanilla js.
-
+<br>
 **Link para vizualizar o  projeto:**
 https://yagomon.github.io/Calculadora-Simples       
                     
